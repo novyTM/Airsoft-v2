@@ -1,0 +1,11 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule airsoft-najlepsze-hobby-na-swiecie index.html
+RewriteRule czym-jest-airsoft czymjestairsoft.html
+RewriteRule jak-zaczac-przygode-z-airsoftem jakzaczac.html
+RewriteRule galeria-airsoft galeria.html
