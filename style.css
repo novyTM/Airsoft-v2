@@ -42,7 +42,7 @@ body
     letter-spacing: 5px;
 }
 
-#nav
+#navbar
 {
     background: rgb(83,83,83);
     background: linear-gradient(0deg, rgba(14,14,14,1) 0%, rgba(255,215,0,1) 50%, rgba(14,14,14,1) 100%);
@@ -51,6 +51,7 @@ body
     width: 1330px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 ol
@@ -104,6 +105,29 @@ ol a
     text-shadow: 2px 2px black;
 }
 
+.contentbox1
+{
+    
+    background-color: rgb(58, 58, 58);
+    border-radius: 30px;   
+    text-shadow: 2px 2px black;
+}
+
+.contentbox2
+{
+    background-color: rgb(58, 58, 58);
+    border-radius: 30px;   
+    text-shadow: 2px 2px black;
+}
+
+.contentbox3
+{
+    background-color: rgb(58, 58, 58);
+    border-radius: 30px;   
+    text-shadow: 2px 2px black;
+    
+}
+
 
 #footer
 {
@@ -114,4 +138,11 @@ ol a
     width: 1330px;
     background-color: rgb(41, 41, 41);
     color: white;
+}
+
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
